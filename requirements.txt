@@ -1,0 +1,5 @@
+# for for last.fm.py
+requests
+bs4
+regex
+
