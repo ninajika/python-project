@@ -3,3 +3,5 @@ requests
 bs4
 regex
 
+# for qiwi
+cloudscraper

@@ -3,7 +3,7 @@ from cloudscraper import create_scraper
 
 class Qiwi:
     def __init__(self, url) -> None:
-        self.url = url
+        self.url: str = url
 
     @staticmethod
     def decrypt_token_and_file_name(content):
@@ -38,6 +38,6 @@ class Qiwi:
         except Exception as e:
             print(e)
 
-    
-d = Qiwi().generate_link()
+
+d = Qiwi("").generate_link()
 print("Generate Link", d)
